@@ -1,0 +1,478 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 140px;
+}
+.main1{
+    width: 45%;
+    height: auto;
+}
+.facebook h1{
+    padding-left: 40px;
+    font-weight: normal;
+}
+.main2{
+    width: 45%;
+    height: auto;
+}
+form{
+    
+    padding: 20px;
+}
+.sign{
+    padding-left: 20px;
+}
+.First-name input{
+    padding-left: 20px;
+    width: 46%;
+    height: 40px;
+    border-radius: 5px;
+}
+.Surname input{
+    padding-left: 20px;
+    width: 46%;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+}.email input{
+    width: 95%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin: 20px 0px;
+
+}
+.paswword input{
+    width: 95%;
+    padding-left: 20px;
+    height: 40px;
+    border-radius: 5px;
+}
+.birth{
+    display: block;
+    margin-top: 20px;
+}
+.months{
+    display: block;
+    margin-top: 20px;
+}
+.years{
+    display: block;
+    margin-top: 20px;
+}
+.date{
+    width: 30%;
+    height: 25px;
+    margin-top: 5px;
+}
+.month{
+    width: 30%;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.year{
+    width: 30%;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.Femail,.male,.custom{
+    width: 30.5%;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid grey;
+}
+.male,.custom{
+    margin-left: 10px;
+
+}
+.radio{
+    margin-left: 70px;
+}
+.radiom{
+    margin-left: 100px;
+
+}
+.genderl{
+    margin-top: 10px;
+}
+.gender{
+    display: flex;
+}
+.des{
+    padding-left: 30px;
+}
+.des a{
+    text-decoration: none;
+}
+.btn button{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    border-radius: 7px;
+    margin-left: 210px;
+    height: 40px;
+    border: none;
+    width: 30%;
+    background-color: green;
+}
+/* ========MEDIA=====MEDIA====MEDIA=====MEDIA=======MEDIA========== */
+@media only screen and (max-width: 1050px)and (min-width: 900px) {
+    .mainp{
+        margin-top: 40px;
+        display: block;
+        width: 100%;
+    }
+    .main1{
+        width: 100%;
+        height: auto;
+    }
+    .facebook h1{
+        padding-left: 20px;
+        font-weight: normal;
+    }
+    .main2{
+        margin-top: 140px;
+        width: 100%;
+        height: auto;
+        border: solid;
+    }
+    form{
+        
+        padding: 40px;
+    }
+    .sign{
+        padding-left: 40px;
+    }
+    .First-name input{
+        width: 49%;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .Surname input{
+        width: 49%;
+        height: 50px;
+        border-radius: 5px;
+    }.email input{
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        padding: 20px 20px;
+        margin: 20px 0px;
+    
+    }
+    .paswword input{
+        width: 100%;
+        padding-left: 20px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .birth{
+        display: block;
+        margin-top: 20px;
+    }
+    .date{
+        width: 32%;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .month{
+        width: 32%;
+        height: 30px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .year{
+        width: 32%;
+        height: 30px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .Femail,.male,.custom{
+        width: 33%;
+        margin-top: 5px;
+        padding: 10px;
+        border: 1px solid grey;
+    }
+    .male,.custom{
+        margin-left: 10px;
+    
+    }
+    .radio{
+        margin-left: 170px;
+    }
+    .radiom{
+        margin-left: 200px;
+    
+    }
+    .genderl{
+        margin-top: 10px;
+    }
+    .gender{
+        display: flex;
+    }
+    .des{
+        padding-left: 30px;
+    }
+    .des a{
+        text-decoration: none;
+    }
+    .btn button{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        margin-top: 40px;
+        border-radius: 7px;
+        margin-left: 300px;
+        height: 40px;
+        border: none;
+        width: 40%;
+        background-color: green;
+    } 
+  } 
+  @media only screen and (max-width: 899px)
+  {
+
+    .mainp{
+        margin-top: 40px;
+        display: block;
+        width: 100%;
+    }
+    .main1{
+        width: 100%;
+        height: auto;
+    }
+    .facebook h1{
+        font-size: medium;
+        font-weight: normal;
+    }
+    .main2{
+        margin-top: 140px;
+        width: 100%;
+        height: auto;
+        border: solid;
+    }
+    
+    .sign{
+        padding-left: 20px;
+    }
+    .First-name input{
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .Surname input{
+        width: 100%;
+        margin-top: 20px;
+        height: 50px;
+        margin-left: 0px;
+        border-radius: 5px;
+    }.email input{
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        padding: 20px 20px;
+        margin: 20px 0px;
+    
+    }
+    .paswword input{
+        width: 100%;
+        padding-left: 20px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .birth{
+        display: block;
+        margin-top: 20px;
+    }
+    .date{
+        width: 31%;
+        height: 50px;
+        margin-top: 5px;
+    }
+    .month{
+        width: 31%;
+        height: 50px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .year{
+        width: 32%;
+        height: 50px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .Femail,.male,.custom{
+        width: 33%;
+        margin-top: 5px;
+        padding: 10px;
+        border: 1px solid grey;
+        height: auto;
+    }
+    .male,.custom{
+        margin-left: 10px;
+    
+    }
+    .radio{
+        margin-left: 70px;
+    }
+    .radiom{
+        margin-left: 100px;
+    
+    }
+    .genderl{
+        margin-top: 10px;
+    }
+    .gender{
+        display: flex;
+    }
+    .des{
+        padding-left: 30px;
+    }
+    .des a{
+        text-decoration: none;
+    }
+    .btn button{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        margin-top: 40px;
+        border-radius: 7px;
+        margin-left: 180px;
+        height: 40px;
+        border: none;
+        width: 40%;
+        background-color: green;
+    }
+
+  }
+  @media only screen and (max-width: 580px){
+    .mainp{
+        margin-top: 40px;
+        display: block;
+        width: 100%;
+    }
+    .main1{
+        width: 100%;
+        height: auto;
+    }
+    .facebook h1{
+        font-size: medium;
+        font-weight: normal;
+    }
+    .main2{
+        margin-top: 140px;
+        width: 100%;
+        height: auto;
+        border: solid;
+    }
+    
+    .sign{
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+    .First-name input{
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .Surname input{
+        width: 100%;
+        margin-top: 20px;
+        height: 50px;
+        margin-left: 0px;
+        border-radius: 5px;
+    }.email input{
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        padding: 20px 20px;
+        margin: 20px 0px;
+    
+    }
+    .paswword input{
+        width: 100%;
+        padding-left: 20px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .birth{
+        display: block;
+        margin-top: 20px;
+    }
+    .date{
+        width: 100%;
+        height: 50px;
+        margin-top: 5px;
+    }
+    .month{
+        width: 100%;
+        height: 50px;
+        margin-top: 5px;
+        margin-left: 0px;
+
+        /* margin-left: 10px; */
+    }
+    .year{
+        width: 100%;
+        height: 50px;
+        margin-top: 5px;
+        margin-left: 0px;
+        /* margin-left: 10px; */
+    }
+    .Femail,.male,.custom{
+        width: 31%;
+        margin-top: 5px;
+        padding: 10px;
+        border: 1px solid grey;
+    }
+    .male,.custom{
+        margin-left: 10px;
+        
+    }
+    .radio{
+        height: 10px;
+        margin-left: 70px;
+    }
+    .radiom{
+        height: 10px;
+
+        margin-left: 80px;
+    
+    }
+    .genderl{
+        margin-top: 10px;
+    }
+    .gender{
+        display: flex;
+    }
+    .des{
+        padding-left: 30px;
+    }
+    .des a{
+        text-decoration: none;
+    }
+    .btn button{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        margin-top: 40px;
+        border-radius: 7px;
+        margin-left: 120px;
+        height: 40px;
+        border: none;
+        width: 40%;
+        margin-bottom: 50px;
+        background-color: green;
+    } 
+  }
